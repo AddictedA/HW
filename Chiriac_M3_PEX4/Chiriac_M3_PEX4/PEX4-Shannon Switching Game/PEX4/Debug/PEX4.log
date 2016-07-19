@@ -1,0 +1,28 @@
+﻿Build started 4/30/2015 12:11:48 AM.
+     1>Project "C:\Users\C17Adrian.Chiriac\Desktop\Academics\Spring 2015\CompSci 223\PEX4_Team_Awesome\PEX4-Shannon Switching Game\PEX4\PEX4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt InstructorGameLogic.c main.c
+         main.c
+     1>c:\users\c17adrian.chiriac\desktop\academics\spring 2015\compsci 223\pex4_team_awesome\pex4-shannon switching game\pex4\main.c(161): warning C4013: 'getStartFinish' undefined; assuming extern returning int
+     1>c:\users\c17adrian.chiriac\desktop\academics\spring 2015\compsci 223\pex4_team_awesome\pex4-shannon switching game\pex4\main.c(167): warning C4013: 'determineWinner_makeStep' undefined; assuming extern returning int
+     1>c:\users\c17adrian.chiriac\desktop\academics\spring 2015\compsci 223\pex4_team_awesome\pex4-shannon switching game\pex4\main.c(160): warning C4101: 'finished' : unreferenced local variable
+     1>c:\users\c17adrian.chiriac\desktop\academics\spring 2015\compsci 223\pex4_team_awesome\pex4-shannon switching game\pex4\main.c(226): warning C4013: 'findIndex' undefined; assuming extern returning int
+     1>c:\users\c17adrian.chiriac\desktop\academics\spring 2015\compsci 223\pex4_team_awesome\pex4-shannon switching game\pex4\main.c(312): warning C4013: 'heuristicsFunction' undefined; assuming extern returning int
+         InstructorGameLogic.c
+     1>c:\users\c17adrian.chiriac\desktop\academics\spring 2015\compsci 223\pex4_team_awesome\pex4-shannon switching game\pex4\instructorgamelogic.c(33): warning C4013: 'findIndex' undefined; assuming extern returning int
+         Generating Code...
+     1>c:\users\c17adrian.chiriac\desktop\academics\spring 2015\compsci 223\pex4_team_awesome\pex4-shannon switching game\pex4\main.c(493): warning C4716: 'getStartFinish' : must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\C17Adrian.Chiriac\Desktop\Academics\Spring 2015\CompSci 223\PEX4_Team_Awesome\PEX4-Shannon Switching Game\Debug\PEX4.exe" /INCREMENTAL /NOLOGO "C:\Users\C17Adrian.Chiriac\Desktop\Academics\Spring 2015\CompSci 223\PEX4_Team_Awesome\PEX4-Shannon Switching Game\\SDL2-devel-2.0.3-VC\SDL2-2.0.3\lib\x86\SDL2.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\C17Adrian.Chiriac\Desktop\Academics\Spring 2015\CompSci 223\PEX4_Team_Awesome\PEX4-Shannon Switching Game\Debug\PEX4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\C17Adrian.Chiriac\Desktop\Academics\Spring 2015\CompSci 223\PEX4_Team_Awesome\PEX4-Shannon Switching Game\Debug\PEX4.lib" /MACHINE:X86 Debug\Graph.obj
+         Debug\InstructorGameLogic.obj
+         Debug\main.obj
+         Debug\SDL2_framerate.obj
+         Debug\SDL2_gfxPrimitives.obj
+         Debug\SDL2_imageFilter.obj
+         Debug\SDL2_rotozoom.obj
+         PEX4.vcxproj -> C:\Users\C17Adrian.Chiriac\Desktop\Academics\Spring 2015\CompSci 223\PEX4_Team_Awesome\PEX4-Shannon Switching Game\Debug\PEX4.exe
+     1>Done Building Project "C:\Users\C17Adrian.Chiriac\Desktop\Academics\Spring 2015\CompSci 223\PEX4_Team_Awesome\PEX4-Shannon Switching Game\PEX4\PEX4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88
